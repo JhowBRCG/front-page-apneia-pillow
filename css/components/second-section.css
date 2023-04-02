@@ -1,0 +1,16 @@
+.second-section {
+  padding: 100px;
+}
+
+.wrapper-main-paragraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 140px;
+  margin-top: 90px;
+}
+@media (max-width: 1410px) {
+  .wrapper-main-paragraph {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,22 @@
+.main-bonus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 124px;
+  margin: 200px 0;
+}
+
+@media (max-width: 1173px) {
+  .main-bonus {
+    flex-direction: column;
+  }
+}
+
+.main-bonus .wrapper {
+  max-width: 670px;
+}
+
+.wrapper-button-bonus {
+  text-align: center;
+  margin-top: 138px;
+}

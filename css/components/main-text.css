@@ -1,0 +1,11 @@
+.main-text {
+  font-size: 24px;
+  font-weight: 100;
+  font-family: "barlow", sans-serif;
+}
+
+@media (max-width: 400px) {
+  .main-text {
+    text-align: center;
+  }
+}

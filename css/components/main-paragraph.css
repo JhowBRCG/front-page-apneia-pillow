@@ -1,0 +1,24 @@
+.main-paragraph {
+  font-weight: 100;
+  font-size: 32px;
+  font-family: "Barlow", sans-serif;
+}
+
+@media (max-width: 1410px) {
+  .main-paragraph {
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .main-paragraph {
+    font-size: 19px;
+  }
+}
+
+.paragraphs-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 674px;
+}

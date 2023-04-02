@@ -1,0 +1,28 @@
+.main-button {
+  padding: 10px 22px;
+  background: #d9d9d9;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.main-button:hover {
+  outline: 2px solid #d9d9d9;
+  background: transparent;
+}
+
+.wrapper-button {
+  display: flex;
+  margin-top: 36px;
+  gap: 14px;
+}
+
+.large {
+  padding: 15px 25px;
+  font-size: 32px;
+}
+
+@media (max-width: 380px) {
+  .large {
+    font-size: 19px;
+  }
+}

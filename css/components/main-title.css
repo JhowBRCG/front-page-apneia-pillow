@@ -1,0 +1,14 @@
+.main-title {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+@media (max-width: 760px) {
+  .main-title {
+    text-align: center;
+  }
+}
+
+.center {
+  text-align: center;
+}

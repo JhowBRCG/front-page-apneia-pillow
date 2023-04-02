@@ -1,0 +1,31 @@
+.main-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 60px;
+}
+
+.main-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 140px;
+}
+
+@media (max-width: 1230px) {
+  .main-wrapper {
+    flex-direction: column;
+  }
+}
+
+.wrapper-text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+@media (max-width: 1230px) {
+  .wrapper-text {
+    align-items: center;
+  }
+}
