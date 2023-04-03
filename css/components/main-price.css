@@ -1,0 +1,20 @@
+.main-price {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.main-price + .main-price {
+  margin-top: 10px;
+}
+
+.price-wrapper {
+  margin-top: 20px;
+  margin-left: 70px;
+}
+
+@media (max-width: 1230px) {
+  .price-wrapper {
+    margin-left: 0;
+    text-align: center;
+  }
+}
