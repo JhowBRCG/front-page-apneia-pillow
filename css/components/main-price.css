@@ -1,6 +1,6 @@
 .main-price {
   font-weight: 700;
-  font-size: 24px;
+  font-size: 30px;
 }
 
 .main-price + .main-price {
@@ -23,5 +23,5 @@
 }
 
 .lower {
-  font-size: 18px;
+  font-size: 20px;
 }
