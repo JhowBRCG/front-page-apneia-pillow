@@ -1,5 +1,6 @@
 .second-section {
   padding: 100px;
+  background: #fddddd;
 }
 
 .wrapper-main-paragraph {
@@ -13,4 +14,8 @@
   .wrapper-main-paragraph {
     flex-direction: column;
   }
+}
+
+.bg-blue {
+  background: #e8e2ff;
 }
