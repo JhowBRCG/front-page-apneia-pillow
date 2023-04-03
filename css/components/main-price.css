@@ -9,7 +9,6 @@
 
 .price-wrapper {
   margin-top: 20px;
-  margin-left: 70px;
 }
 
 @media (max-width: 1230px) {
@@ -17,4 +16,12 @@
     margin-left: 0;
     text-align: center;
   }
+}
+
+.green {
+  color: green;
+}
+
+.lower {
+  font-size: 18px;
 }
