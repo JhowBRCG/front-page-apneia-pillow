@@ -1,0 +1,26 @@
+.product-specs {
+  display: flex;
+  flex-direction: column;
+  max-width: 550px;
+  gap: 22px;
+}
+
+.product-specs .title {
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.product-specs .text {
+  font-family: "Barlow";
+  font-weight: 100;
+  font-size: 24px;
+}
+
+.wrapper-specs {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 157px;
+  align-items: center;
+  justify-content: center;
+}
