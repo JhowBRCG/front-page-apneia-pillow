@@ -1,5 +1,5 @@
 .second-section {
-  padding: 50px;
+  padding: 100px 50px;
   background: #fddddd;
 }
 
@@ -18,4 +18,8 @@
 
 .bg-blue {
   background: #e8e2ff;
+}
+
+.second-section .img-margin {
+  margin-top: 13vh;
 }
