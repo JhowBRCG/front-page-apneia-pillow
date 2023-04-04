@@ -5,6 +5,7 @@
 
 .wrapper-video {
   display: flex;
+  flex-direction: column;
   margin: auto;
   gap: 2vw;
   max-width: 600px;
@@ -14,6 +15,7 @@
 @media (max-width: 613px) {
   .wrapper-video {
     flex-direction: column;
+    gap: 2vh;
   }
 }
 
