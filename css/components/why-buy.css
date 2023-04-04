@@ -1,0 +1,6 @@
+.why-buy {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  margin-top: 175px;
+}
